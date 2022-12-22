@@ -40,6 +40,8 @@ let salvarTarefas = () =>{
         listaDeTarefas.push(tarefaTexto);
     }
 
+    // Anotar no caderno a palavra replace() e trim().
+
     const tarefasJSON = JSON.stringify(listaDeTarefas);
     localStorage.setItem('tarefas', tarefasJSON);
 }
