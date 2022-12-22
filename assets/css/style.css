@@ -1,3 +1,56 @@
+:root{
+    --cor1: #232761;
+    --cor2: #7276AD;
+    --cor3: #9499E0;
+    --cor4: #535CE6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--cor1);
+}
+
+.container{
+    background-color: var(--cor2);
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding:20px;
+    border-radius: 10px;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+p, h1{
+    text-align: center;
+}
+
+input:focus{
+    outline: none;
+}
+
+ul{
+    margin-top: 20px;
+    padding:10px;
+    border-radius: 10px;
+}
+
 li{
     margin-bottom: 10px;
+    list-style: none;
+}
+
+button{
+    background-color: var(--cor4);
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid var(--cor1);
 }
