@@ -40,8 +40,6 @@ let salvarTarefas = () =>{
         listaDeTarefas.push(tarefaTexto);
     }
 
-    // Anotar no caderno a palavra replace() e trim().
-
     const tarefasJSON = JSON.stringify(listaDeTarefas);
     localStorage.setItem('tarefas', tarefasJSON);
 }
@@ -76,3 +74,5 @@ document.addEventListener('click', (e)=>{
         salvarTarefas();
     }
 })
+
+// Criar uma forma de poder adicionar tarefas antes ou depois de algum elemento selecionado.
